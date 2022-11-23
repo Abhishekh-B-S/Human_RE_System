@@ -6,6 +6,7 @@
       <class name="com.testyantra.corporate.Sample"/>
       <class name="com.testyantra.branches.Branches"/>
       <class name="com.testyantra.corporate.Department"/>
+      <class name="com.testyantra.employee.Employee"/>
       <class name="com.testyantra.branches.Sample"/>
     </classes>
   </test> <!-- Test -->
