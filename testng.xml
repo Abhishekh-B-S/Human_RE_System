@@ -8,6 +8,8 @@
       <class name="com.testyantra.corporate.Department"/>
       <class name="com.testyantra.employee.Employee"/>
       <class name="com.testyantra.branches.Sample"/>
+      <class name="com.testyantra.branches.New"/>
+      <class name="com.testyantra.employee.Sample"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
