@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">13 methods,   13 passed</span>
+                    <span class="method-stats">15 methods,   15 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -124,7 +124,17 @@
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.testyantra.branches.New" hash-for-method="newClass">newClass</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.testyantra.corporate.Department" hash-for-method="newdept">newdept</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.testyantra.employee.Sample" hash-for-method="sample1">sample1</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -149,12 +159,12 @@
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.testyantra.corporate.Sample" hash-for-method="script3">script3</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.testyantra.branches.Sample" hash-for-method="script3">script3</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.testyantra.branches.Sample" hash-for-method="script3">script3</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.testyantra.corporate.Sample" hash-for-method="script3">script3</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -284,6 +294,21 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
+              <span class="class-name">com.testyantra.branches.New</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="newClass">
+                  </a> <!-- newClass -->
+                  <span class="method-name">newClass</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
               <span class="class-name">com.testyantra.branches.Sample</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -310,6 +335,21 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.testyantra.employee.Sample</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="sample1">
+                  </a> <!-- sample1 -->
+                  <span class="method-name">sample1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -327,6 +367,8 @@
       &lt;class name=&quot;com.testyantra.corporate.Department&quot;/&gt;
       &lt;class name=&quot;com.testyantra.employee.Employee&quot;/&gt;
       &lt;class name=&quot;com.testyantra.branches.Sample&quot;/&gt;
+      &lt;class name=&quot;com.testyantra.branches.New&quot;/&gt;
+      &lt;class name=&quot;com.testyantra.employee.Sample&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -340,7 +382,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (5 classes)</span>
+                <span class="test-name">Test (7 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -366,64 +408,72 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(13);
+data.addRows(15);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'script1')
 data.setCell(0, 2, 'com.testyantra.corporate.Sample')
-data.setCell(0, 3, 10);
+data.setCell(0, 3, 13);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'script2')
 data.setCell(1, 2, 'com.testyantra.branches.Sample')
-data.setCell(1, 3, 3);
+data.setCell(1, 3, 5);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'newdept')
-data.setCell(2, 2, 'com.testyantra.corporate.Department')
-data.setCell(2, 3, 3);
+data.setCell(2, 1, 'upbranch')
+data.setCell(2, 2, 'com.testyantra.branches.Branches')
+data.setCell(2, 3, 5);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'script3')
-data.setCell(3, 2, 'com.testyantra.corporate.Sample')
-data.setCell(3, 3, 2);
+data.setCell(3, 1, 'newBranch')
+data.setCell(3, 2, 'com.testyantra.branches.Branches')
+data.setCell(3, 3, 4);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'delbranch')
-data.setCell(4, 2, 'com.testyantra.branches.Branches')
-data.setCell(4, 3, 2);
+data.setCell(4, 1, 'script3')
+data.setCell(4, 2, 'com.testyantra.branches.Sample')
+data.setCell(4, 3, 3);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'upbranch')
-data.setCell(5, 2, 'com.testyantra.branches.Branches')
+data.setCell(5, 1, 'newdept')
+data.setCell(5, 2, 'com.testyantra.corporate.Department')
 data.setCell(5, 3, 2);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'script2')
-data.setCell(6, 2, 'com.testyantra.corporate.Sample')
+data.setCell(6, 1, 'delbranch')
+data.setCell(6, 2, 'com.testyantra.branches.Branches')
 data.setCell(6, 3, 2);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'newBranch')
-data.setCell(7, 2, 'com.testyantra.branches.Branches')
+data.setCell(7, 1, 'sample1')
+data.setCell(7, 2, 'com.testyantra.employee.Sample')
 data.setCell(7, 3, 2);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'script3')
-data.setCell(8, 2, 'com.testyantra.branches.Sample')
-data.setCell(8, 3, 2);
+data.setCell(8, 1, 'deldept')
+data.setCell(8, 2, 'com.testyantra.corporate.Department')
+data.setCell(8, 3, 1);
 data.setCell(9, 0, 9)
 data.setCell(9, 1, 'updept')
 data.setCell(9, 2, 'com.testyantra.corporate.Department')
-data.setCell(9, 3, 2);
+data.setCell(9, 3, 1);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'empDetails')
-data.setCell(10, 2, 'com.testyantra.employee.Employee')
+data.setCell(10, 1, 'newClass')
+data.setCell(10, 2, 'com.testyantra.branches.New')
 data.setCell(10, 3, 1);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'deldept')
-data.setCell(11, 2, 'com.testyantra.corporate.Department')
+data.setCell(11, 1, 'script2')
+data.setCell(11, 2, 'com.testyantra.corporate.Sample')
 data.setCell(11, 3, 1);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'script1')
-data.setCell(12, 2, 'com.testyantra.branches.Sample')
+data.setCell(12, 1, 'empDetails')
+data.setCell(12, 2, 'com.testyantra.employee.Employee')
 data.setCell(12, 3, 1);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'script3')
+data.setCell(13, 2, 'com.testyantra.corporate.Sample')
+data.setCell(13, 3, 1);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'script1')
+data.setCell(14, 2, 'com.testyantra.branches.Sample')
+data.setCell(14, 3, 1);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 33 ms</span>
+              <span class="suite-total-time">Total running time: 43 ms</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -456,11 +506,11 @@ return data;
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">script2</span>
-                <span class="method-start">16 ms</span>
+                <span class="method-start">18 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">script3</span>
-                <span class="method-start">23 ms</span>
+                <span class="method-start">21 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
@@ -471,48 +521,62 @@ return data;
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">newBranch</span>
-                <span class="method-start">35 ms</span>
+                <span class="method-start">44 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">upbranch</span>
-                <span class="method-start">40 ms</span>
+                <span class="method-start">52 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.testyantra.corporate.Department</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">deldept</span>
-                <span class="method-start">53 ms</span>
+                <span class="method-start">60 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">newdept</span>
-                <span class="method-start">57 ms</span>
+                <span class="method-start">66 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">updept</span>
-                <span class="method-start">62 ms</span>
+                <span class="method-start">72 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.testyantra.employee.Employee</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">empDetails</span>
-                <span class="method-start">68 ms</span>
+                <span class="method-start">78 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.testyantra.branches.Sample</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">script1</span>
-                <span class="method-start">71 ms</span>
+                <span class="method-start">81 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">script2</span>
-                <span class="method-start">73 ms</span>
+                <span class="method-start">83 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">script3</span>
-                <span class="method-start">78 ms</span>
+                <span class="method-start">89 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testyantra.branches.New</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">newClass</span>
+                <span class="method-start">96 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testyantra.employee.Sample</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">sample1</span>
+                <span class="method-start">99 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

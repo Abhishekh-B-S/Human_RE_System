@@ -1,69 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="13" passed="13">
+<testng-results skipped="0" failed="0" ignored="0" total="15" passed="15">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="125" started-at="2022-11-23T15:14:11 IST" finished-at="2022-11-23T15:14:11 IST">
+  <suite name="Suite" duration-ms="156" started-at="2022-11-24T11:04:08 IST" finished-at="2022-11-24T11:04:08 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="125" started-at="2022-11-23T15:14:11 IST" finished-at="2022-11-23T15:14:11 IST">
+    <test name="Test" duration-ms="156" started-at="2022-11-24T11:04:08 IST" finished-at="2022-11-24T11:04:08 IST">
+      <class name="com.testyantra.employee.Sample">
+        <test-method status="PASS" signature="sample1()[pri:0, instance:com.testyantra.employee.Sample@66d1af89]" name="sample1" duration-ms="2" started-at="2022-11-24T11:04:08 IST" finished-at="2022-11-24T11:04:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sample1 -->
+      </class> <!-- com.testyantra.employee.Sample -->
       <class name="com.testyantra.branches.Branches">
-        <test-method status="PASS" signature="delbranch()[pri:0, instance:com.testyantra.branches.Branches@491cc5c9]" name="delbranch" duration-ms="2" started-at="2022-11-23T15:14:11 IST" finished-at="2022-11-23T15:14:11 IST">
+        <test-method status="PASS" signature="delbranch()[pri:0, instance:com.testyantra.branches.Branches@6a1aab78]" name="delbranch" duration-ms="2" started-at="2022-11-24T11:04:08 IST" finished-at="2022-11-24T11:04:08 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- delbranch -->
-        <test-method status="PASS" signature="newBranch()[pri:0, instance:com.testyantra.branches.Branches@491cc5c9]" name="newBranch" duration-ms="2" started-at="2022-11-23T15:14:11 IST" finished-at="2022-11-23T15:14:11 IST">
+        <test-method status="PASS" signature="newBranch()[pri:0, instance:com.testyantra.branches.Branches@6a1aab78]" name="newBranch" duration-ms="4" started-at="2022-11-24T11:04:08 IST" finished-at="2022-11-24T11:04:08 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- newBranch -->
-        <test-method status="PASS" signature="upbranch()[pri:0, instance:com.testyantra.branches.Branches@491cc5c9]" name="upbranch" duration-ms="2" started-at="2022-11-23T15:14:11 IST" finished-at="2022-11-23T15:14:11 IST">
+        <test-method status="PASS" signature="upbranch()[pri:0, instance:com.testyantra.branches.Branches@6a1aab78]" name="upbranch" duration-ms="5" started-at="2022-11-24T11:04:08 IST" finished-at="2022-11-24T11:04:08 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- upbranch -->
       </class> <!-- com.testyantra.branches.Branches -->
       <class name="com.testyantra.corporate.Department">
-        <test-method status="PASS" signature="deldept()[pri:0, instance:com.testyantra.corporate.Department@74ad1f1f]" name="deldept" duration-ms="1" started-at="2022-11-23T15:14:11 IST" finished-at="2022-11-23T15:14:11 IST">
+        <test-method status="PASS" signature="deldept()[pri:0, instance:com.testyantra.corporate.Department@462d5aee]" name="deldept" duration-ms="1" started-at="2022-11-24T11:04:08 IST" finished-at="2022-11-24T11:04:08 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deldept -->
-        <test-method status="PASS" signature="newdept()[pri:0, instance:com.testyantra.corporate.Department@74ad1f1f]" name="newdept" duration-ms="3" started-at="2022-11-23T15:14:11 IST" finished-at="2022-11-23T15:14:11 IST">
+        <test-method status="PASS" signature="newdept()[pri:0, instance:com.testyantra.corporate.Department@462d5aee]" name="newdept" duration-ms="2" started-at="2022-11-24T11:04:08 IST" finished-at="2022-11-24T11:04:08 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- newdept -->
-        <test-method status="PASS" signature="updept()[pri:0, instance:com.testyantra.corporate.Department@74ad1f1f]" name="updept" duration-ms="2" started-at="2022-11-23T15:14:11 IST" finished-at="2022-11-23T15:14:11 IST">
+        <test-method status="PASS" signature="updept()[pri:0, instance:com.testyantra.corporate.Department@462d5aee]" name="updept" duration-ms="1" started-at="2022-11-24T11:04:08 IST" finished-at="2022-11-24T11:04:08 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updept -->
       </class> <!-- com.testyantra.corporate.Department -->
       <class name="com.testyantra.employee.Employee">
-        <test-method status="PASS" signature="empDetails()[pri:0, instance:com.testyantra.employee.Employee@6a1aab78]" name="empDetails" duration-ms="1" started-at="2022-11-23T15:14:11 IST" finished-at="2022-11-23T15:14:11 IST">
+        <test-method status="PASS" signature="empDetails()[pri:0, instance:com.testyantra.employee.Employee@69b0fd6f]" name="empDetails" duration-ms="1" started-at="2022-11-24T11:04:08 IST" finished-at="2022-11-24T11:04:08 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- empDetails -->
       </class> <!-- com.testyantra.employee.Employee -->
+      <class name="com.testyantra.branches.New">
+        <test-method status="PASS" signature="newClass()[pri:0, instance:com.testyantra.branches.New@4a87761d]" name="newClass" duration-ms="1" started-at="2022-11-24T11:04:08 IST" finished-at="2022-11-24T11:04:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newClass -->
+      </class> <!-- com.testyantra.branches.New -->
       <class name="com.testyantra.corporate.Sample">
-        <test-method status="PASS" signature="script1()[pri:0, instance:com.testyantra.corporate.Sample@76a3e297]" name="script1" duration-ms="10" started-at="2022-11-23T15:14:11 IST" finished-at="2022-11-23T15:14:11 IST">
+        <test-method status="PASS" signature="script1()[pri:0, instance:com.testyantra.corporate.Sample@ed9d034]" name="script1" duration-ms="13" started-at="2022-11-24T11:04:08 IST" finished-at="2022-11-24T11:04:08 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- script1 -->
-        <test-method status="PASS" signature="script2()[pri:0, instance:com.testyantra.corporate.Sample@76a3e297]" name="script2" duration-ms="2" started-at="2022-11-23T15:14:11 IST" finished-at="2022-11-23T15:14:11 IST">
+        <test-method status="PASS" signature="script2()[pri:0, instance:com.testyantra.corporate.Sample@ed9d034]" name="script2" duration-ms="1" started-at="2022-11-24T11:04:08 IST" finished-at="2022-11-24T11:04:08 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- script2 -->
-        <test-method status="PASS" signature="script3()[pri:0, instance:com.testyantra.corporate.Sample@76a3e297]" name="script3" duration-ms="2" started-at="2022-11-23T15:14:11 IST" finished-at="2022-11-23T15:14:11 IST">
+        <test-method status="PASS" signature="script3()[pri:0, instance:com.testyantra.corporate.Sample@ed9d034]" name="script3" duration-ms="1" started-at="2022-11-24T11:04:08 IST" finished-at="2022-11-24T11:04:08 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- script3 -->
       </class> <!-- com.testyantra.corporate.Sample -->
       <class name="com.testyantra.branches.Sample">
-        <test-method status="PASS" signature="script1()[pri:0, instance:com.testyantra.branches.Sample@462d5aee]" name="script1" duration-ms="1" started-at="2022-11-23T15:14:11 IST" finished-at="2022-11-23T15:14:11 IST">
+        <test-method status="PASS" signature="script1()[pri:0, instance:com.testyantra.branches.Sample@757942a1]" name="script1" duration-ms="1" started-at="2022-11-24T11:04:08 IST" finished-at="2022-11-24T11:04:08 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- script1 -->
-        <test-method status="PASS" signature="script2()[pri:0, instance:com.testyantra.branches.Sample@462d5aee]" name="script2" duration-ms="3" started-at="2022-11-23T15:14:11 IST" finished-at="2022-11-23T15:14:11 IST">
+        <test-method status="PASS" signature="script2()[pri:0, instance:com.testyantra.branches.Sample@757942a1]" name="script2" duration-ms="5" started-at="2022-11-24T11:04:08 IST" finished-at="2022-11-24T11:04:08 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- script2 -->
-        <test-method status="PASS" signature="script3()[pri:0, instance:com.testyantra.branches.Sample@462d5aee]" name="script3" duration-ms="2" started-at="2022-11-23T15:14:11 IST" finished-at="2022-11-23T15:14:11 IST">
+        <test-method status="PASS" signature="script3()[pri:0, instance:com.testyantra.branches.Sample@757942a1]" name="script3" duration-ms="3" started-at="2022-11-24T11:04:08 IST" finished-at="2022-11-24T11:04:08 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- script3 -->
